@@ -1,0 +1,1 @@
+jQuery(document).ready(function(n){n(window).on("load",function(){})});

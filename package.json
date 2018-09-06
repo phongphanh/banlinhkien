@@ -1,0 +1,46 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "template for make html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://hjhjhaha@bitbucket.org/hjhjhaha/template.git"
+  },
+  "author": "duyph",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/hjhjhaha/template#readme",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-es2015": "*",
+    "babel-register": "*",
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-babel": "*",
+    "gulp-concat": "*",
+    "gulp-concat-json": "*",
+    "gulp-cssbeautify": "^1.0.0",
+    "gulp-data": "*",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-json-concat": "*",
+    "gulp-merge-json": "*",
+    "gulp-minify": "*",
+    "gulp-pug": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-strip-css-comments": "*",
+    "gulp-util": "^3.0.8"
+  },
+  "dependencies": {
+    "jstransformer-coffee-script": "^1.1.1",
+    "jstransformer-markdown-it": "^2.1.0"
+  }
+}

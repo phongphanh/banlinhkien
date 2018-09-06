@@ -1,0 +1,268 @@
+/* ==============================================================
+
+Project:	xxx - Creative Coming Soon Template
+Info:		https://themeforest.net/item/xxx
+Version:	1.0
+Author:		3F-Team
+Profile:	https://themeforest.net/user/3ftheme
+
+-----------------------------------------------------------------
+					*** TABLE OF CONTENTS ***
+-----------------------------------------------------------------
+
+	1.	General
+	2.	xxx
+	3.	xxx
+	4.	xxx
+	5.	xxx
+	6.	xxx
+	7.	xxx
+	8.	xxx
+	8.	xxx
+	9.  xxx
+	10.	xxx
+	11.	xxx
+	12.	xxx
+		
+=============================================================*/
+/*********************
+    - 1. General -
+*********************/
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.list-inline {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.list-inline li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+.container {
+  margin: 0px auto;
+  width: 1170px;
+}
+
+.col {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clear-fix, .clearfix {
+  clear: both;
+}
+
+.col-16 {
+  width: 16.6667%;
+}
+
+.col-33 {
+  width: 33.3333%;
+}
+
+.col-66 {
+  width: 66.6667%;
+}
+
+.col-83 {
+  width: 83.3333%;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+.icon {
+  width: 15px;
+}
+
+.icon2 {
+  width: 17px;
+}
+
+.header__top {
+  background-color: #1899ed;
+  line-height: 35px;
+  color: #ffffff;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.header__top .hot {
+  margin-left: 45px;
+}
+
+.header__top ul > li {
+  padding: 0 15px;
+}
+
+.header__mid {
+  padding: 10px 0;
+}
+
+.header__logo a {
+  display: block;
+}
+
+.header__search {
+  display: inline-block;
+  width: 80%;
+  position: relative;
+}
+
+.header__search form {
+  line-height: 51px;
+  vertical-align: middle;
+}
+
+.header__search form input[type="search"] {
+  padding: 8px 15px;
+  width: 100%;
+  border: 1px solid #000;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.header__search button {
+  position: absolute;
+  top: 29%;
+  left: 95%;
+  background: transparent;
+  border: none;
+  z-index: 9;
+  cursor: pointer;
+}
+
+.header__cart a {
+  display: block;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border: 1px solid #22b7ff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  max-width: 75%;
+  margin: 10px auto;
+  font-weight: 500;
+}
+
+.header__cart a img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.header__cart a:hover {
+  background-color: #22b7ff;
+  color: #ffffff;
+}
+
+.header__bottom {
+  background-color: #ff3333;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.header__category {
+  line-height: 48px;
+  vertical-align: middle;
+}
+
+.header__menu ul {
+  display: table;
+  width: 100%;
+}
+
+.header__menu ul li {
+  line-height: 48px;
+  vertical-align: middle;
+  display: table-cell;
+  position: relative;
+  text-align: center;
+}
+
+.header__menu ul > li > a {
+  display: block;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.header__menu li > ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  width: 250px;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+  z-index: 1;
+  top: -100%;
+}
+
+.header__menu li > ul li {
+  background-color: #ff3333;
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  overflow: hidden;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.header__menu li:hover {
+  background-color: #22b7ff;
+}
+
+.header__menu li:hover > ul {
+  top: 48px;
+}
+
+.header__menu li:hover > ul li {
+  opacity: 1;
+  height: 100%;
+}

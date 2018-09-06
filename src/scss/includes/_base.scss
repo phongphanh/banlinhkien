@@ -1,0 +1,89 @@
+
+/*********************
+    - 1. General -
+*********************/
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.list-inline{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.list-inline li{
+    @include dis(middle);
+}
+
+a{
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  border: none;
+}
+
+.container{
+  margin: 0px auto;
+  width: 1170px;
+}
+
+.col{
+  float: left;
+}
+.fright{
+  float: right;
+}
+
+.clear-fix, .clearfix{
+  clear: both;
+}
+
+.col-16{
+  width: 16.6667%;
+}
+
+.col-33{
+  width: 33.3333%;
+}
+
+.col-66{
+  width: 66.6667%;
+}
+
+.col-83{
+  width: 83.3333%;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+.col-50{
+  width: 50%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+p{
+  margin: 0;
+}
+
+.icon{
+  width: 15px;
+}
+
+.icon2{
+  width: 17px;
+}
